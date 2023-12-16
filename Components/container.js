@@ -1,9 +1,10 @@
 export const container = (images) => {
-  return `
-    
- <main class="container">
+  if (!images) {
+    images = "";
+  }
+  return ` 
+  <main class="container">
   ${images}
-</main>
-    
+    </main>
     `;
 };

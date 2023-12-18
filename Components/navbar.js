@@ -7,7 +7,7 @@ export const navbar = () => {
     <ul class="list_menu">
       <li>Inicio</li>
       <li>Hoy</li>
-      <li>crear</li>
+      <li>Crear</li>
     </ul>
     <div class="search_bloque">
     <img id="event_search" src="./lupa.png" alt=""> 

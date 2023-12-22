@@ -27,7 +27,7 @@ document.querySelector("#event_search").addEventListener("click", () => {
     console.log("imagenes", data);
     if (data.length === 0) {
       document.querySelector(".container").innerHTML =
-        "No se ha encontrado ningún resultado para la busqueda selecionada";
+        "No se han encontrado resultados...";
     } else {
       data.forEach((imagen) => {
         tarjetaImagenes += image(imagen.urls.regular);

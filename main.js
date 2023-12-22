@@ -25,9 +25,15 @@ document.querySelector("#event_search").addEventListener("click", () => {
   tarjetaImagenes = "";
   getImages(inputValue).then((data) => {
     console.log("imagenes", data);
-    data.forEach((imagen) => {
-      tarjetaImagenes += image(imagen.urls.regular);
-    });
-    document.querySelector(".container").innerHTML = container(tarjetaImagenes);
+    if (data.length === 0) {
+      document.querySelector(".container").innerHTML =
+        "No se ha encontrado ningún resultado para la busqueda selecionada";
+    } else {
+      data.forEach((imagen) => {
+        tarjetaImagenes += image(imagen.urls.regular);
+      });
+      document.querySelector(".container").innerHTML =
+        container(tarjetaImagenes);
+    }
   });
 });

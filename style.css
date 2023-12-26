@@ -6,10 +6,7 @@
 }
 
 
-html{
-  background-color: blueviolet;
 
-}
 
 :root {
   --font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -214,6 +211,10 @@ margin-top: 30px;
 .search_group input{
   margin-top: 20px;
 }
+
+#event_search{
+  margin-top: 20px;
+}
 }
 @media screen and (max-width:432px){
 html{
@@ -222,6 +223,6 @@ html{
 }
 
 #event_search{
-  margin-top: 20px;
+  margin-top: 50px;
 }
 }

@@ -1,8 +1,16 @@
 *{
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
   list-style: none;
 }
+
+
+html{
+  background-color: blueviolet;
+
+}
+
 :root {
   --font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   --color-header:#e8e7e1;
@@ -11,12 +19,13 @@
 
 }
 
-
 header{
   background-color: #e8e7e1;
+ 
 }
 body{
   background-color: rgba(192, 187, 182, 0.66);
+  
 }
 
 .logo{
@@ -106,6 +115,7 @@ li:hover{
 /*EMPEZAMOS A DAR ESTILOS AL CONTENEDOR CON LAS IMAGENES*/
 
 .container{
+
   background-color: rgba(186, 186, 150, 0.561);
   display: flex;
   flex-wrap: wrap;
@@ -125,15 +135,15 @@ li:hover{
 }
 
 @media screen and (max-width:1000px){
- body{
-    width: 100%;
-  }
+
 .logo{ 
   display: flex;
   width: 35px;
   height: 35px;
   margin-left: 21px;
 }
+
+
 
 .navbar{
   margin-left: 14px;
@@ -145,7 +155,9 @@ li:hover{
 }
 .search_group{
   margin-top: 30px;
+
 }
+
 .list_menu{
   display: flex;
   padding: 0;
@@ -191,4 +203,11 @@ height: 300px;
 object-fit: cover;
   }
 
+}
+
+
+@media screen and (max-width:430px){
+  html{
+    width: 450px;
+  }
 }

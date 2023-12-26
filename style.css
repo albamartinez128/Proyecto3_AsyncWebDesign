@@ -203,11 +203,25 @@ height: 300px;
 object-fit: cover;
   }
 
+.search_group{
+
+display: flex;
+flex-direction: column;
+margin: 0 auto;
+margin-top: 30px;
 }
 
+.search_group input{
+  margin-top: 20px;
+}
+}
+@media screen and (max-width:432px){
+html{
+  width: 450px;
 
-@media screen and (max-width:430px){
-  html{
-    width: 450px;
-  }
+}
+
+#event_search{
+  margin-top: 20px;
+}
 }

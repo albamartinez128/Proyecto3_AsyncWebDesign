@@ -212,8 +212,8 @@ margin-top: 30px;
   margin-top: 20px;
 }
 
-#event_search{
-  margin-top: 40px;
+#event_search {
+  margin-top: 20px;
 }
 }
 @media screen and (max-width:432px){
@@ -223,6 +223,6 @@ html{
 }
 
 #event_search{
-  margin-top: 50px;
+  margin-top: 20px;
 }
 }

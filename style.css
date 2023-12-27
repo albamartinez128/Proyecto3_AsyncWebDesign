@@ -225,4 +225,14 @@ html{
 #event_search{
   margin-top: 20px;
 }
+
+
 }
+
+@media screen and (max-width:930px){
+  
+  #event_search{
+    margin-top: 20px;
+  }
+  }
+  
